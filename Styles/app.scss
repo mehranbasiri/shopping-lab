@@ -1,0 +1,20 @@
+strong {
+  color: green;
+  font-size: 1.5rem;
+}
+html {
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+}
+.comment {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@import "./Product.scss";
+@import "./cart-icon.scss";
+@import "./navbar.scss";
+@import "./login.scss";
+@import "./mousOverList.scss";
+@import "./slider.scss";

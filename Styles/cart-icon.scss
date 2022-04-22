@@ -1,0 +1,30 @@
+.cart-icon {
+  margin-right: 20px;
+  position: absolute;
+  right: 18rem;
+  top: 0.5rem;
+  color: #fff;
+  :hover {
+    transform: scale(1.1);
+  }
+}
+
+.cart-number {
+  background-color: red;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  padding: 1px;
+
+  position: relative;
+  top: -5px;
+  left: -10px;
+}
+.cart-empty {
+  margin-top: 300px;
+  font-size: 60px;
+  text-align: center;
+}
+.cart-box {
+  margin-top: 1.5rem;
+}

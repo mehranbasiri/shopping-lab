@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #a19882;
+
+  .nav-item {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 4.5rem;
+    padding-top: 2rem;
+
+    .link {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+.line {
+  position: absolute;
+
+  top: 5rem;
+  left: 31%;
+  background: #fff;
+  width: 40%;
+  height: 0.25rem;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 1rem;
+  left: 45%;
+  padding: 1rem;
+  color: #fff;
+  font-size: 2rem;
+}
+.search-box {
+  position: absolute;
+  top: 0.5rem;
+  right: 10px;
+  display: flex;
+}
+.brand-link {
+  text-decoration: none;
+}

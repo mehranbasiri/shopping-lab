@@ -1,0 +1,34 @@
+.brand-menu {
+  background-color: #fff;
+  border-radius: 5%;
+  display: none;
+  position: absolute;
+  z-index: 10;
+  box-shadow: 2px 2px gray;
+  text-align: center;
+  span {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1.3rem;
+
+    color: #000;
+  }
+}
+.brand-menu { 
+  a:hover {
+    background-color: #fff;
+    color: black;
+  }
+}
+.brand-link {
+  text-decoration: none;
+  color: #fff;
+}
+.brand-link:hover .brand-menu {
+  display: block;
+}
+.brand-menu {
+  span:hover {
+  background-color: #e6ddc6;
+  }
+}
